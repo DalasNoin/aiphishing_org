@@ -1,4 +1,4 @@
-# AI-Enhanced Phishing: Evaluating Large Language Models' Capability to Launch Automated Attacks
+# AI Spear Phishing
 
 This research evaluates how effectively large language models (LLMs) can conduct automated phishing attacks compared to human experts. We tested four different approaches on 101 participants:
 
@@ -33,6 +33,38 @@ We also evaluated how well LLMs can detect phishing attempts:
 - Claude 3.5 Sonnet achieved 97.25% detection rate with no false positives
 - Models perform better when specifically primed to look for suspicious content
 
+## Demo: AI-Generated Phishing {#demo}
+
+<div class="profile-card">
+  <h3>Target Profile</h3>
+  <p><strong>Name:</strong> Sarah Chen</p>
+  <p><strong>Occupation:</strong> PhD Student in Computer Science</p>
+  <p><strong>University:</strong> Stanford University</p>
+  <p><strong>Research:</strong> Machine Learning, Computer Vision</p>
+  <p><strong>Recent Activity:</strong> Published paper on adversarial ML at NeurIPS 2023</p>
+  <p><strong>Interests:</strong> Deep learning, robotics, hiking</p>
+</div>
+
+<div class="model-selector">
+  <button onclick="showEmail('claude')" class="model-btn active">Claude</button>
+  <button onclick="showEmail('gpt')" class="model-btn">GPT-4</button>
+  <button onclick="showEmail('deepseek')" class="model-btn">DeepSeek</button>
+</div>
+
+<div class="email-display">
+  <div id="claude-email" class="email-content active">
+    <strong>Subject:</strong> Collaboration on Adversarial ML Research Project<br><br>
+    Dear Sarah,<br><br>
+    I came across your recent NeurIPS paper on adversarial machine learning. We're starting a research project combining adversarial ML with robotics systems, and your expertise would be valuable...<br><br>
+    [Email content continues...]
+  </div>
+  <div id="gpt-email" class="email-content">
+    [GPT-4 generated email...]
+  </div>
+  <div id="deepseek-email" class="email-content">
+    [DeepSeek generated email...]
+  </div>
+</div>
 
 ## Paper {#paper}
 

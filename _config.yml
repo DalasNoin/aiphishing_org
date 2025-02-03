@@ -1,0 +1,28 @@
+remote_theme: pages-themes/cayman
+title: AI Spear Phishing
+description: Evaluating Large Language Models' Capability to Launch Automated Attacks
+show_downloads: false
+
+plugins:
+  - jekyll-remote-theme
+  - jekyll-sass-converter
+
+# Navigation
+navigation:
+  - title: Home
+    url: /
+  - title: Findings
+    url: #findings
+  - title: Demo
+    url: /demo.html
+  - title: Paper
+    url: #paper
+
+# SASS/SCSS settings
+sass:
+  style: compressed
+  sass_dir: assets/css
+  sourcemap: never
+  load_paths:
+    - _sass
+    - assets/css 
