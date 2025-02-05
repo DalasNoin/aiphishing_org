@@ -1,6 +1,6 @@
 remote_theme: pages-themes/cayman
-title: AI Spear Phishing
-description: Evaluating Large Language Models' Capability to Launch Automated Attacks
+title: AI Spear Phishing Research
+description: Evaluating Large Language Models' Capability to Launch Fully Automated Spear Phishing Campaigns
 show_downloads: false
 
 plugins:
@@ -11,12 +11,13 @@ plugins:
 navigation:
   - title: Home
     url: /
-  - title: Findings
-    url: #findings
+  - title: Paper
+    url: https://arxiv.org/abs/2412.00586
   - title: Demo
     url: /demo.html
-  - title: Paper
-    url: #paper
+  - title: Sign-up
+    url: /signup.html
+
 
 # SASS/SCSS settings
 sass:
@@ -25,4 +26,4 @@ sass:
   sourcemap: never
   load_paths:
     - _sass
-    - assets/css 
+    - assets/css

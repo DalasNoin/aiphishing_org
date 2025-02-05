@@ -79,10 +79,6 @@
   padding: 20px;
 }
 
-.email-content {
-  display: none;
-}
-
 .email-content.active {
   display: block;
 }
@@ -168,6 +164,16 @@
   white-space: pre-line;
 }
 
+.email-link {
+  color: #0066cc;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.email-link:hover {
+  text-decoration: underline;
+}
+
 /* Profile Section */
 .profile-section {
   background: white;
@@ -178,7 +184,7 @@
 }
 
 .profile-header {
-  background: linear-gradient(135deg, #0061ff, #60efff);
+  background: linear-gradient(135deg, #fff, #a6a6a6);
   padding: 20px;
   color: white;
   display: flex;
