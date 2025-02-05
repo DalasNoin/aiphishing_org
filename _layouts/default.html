@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta charset="UTF-8">
+    <!-- Theme's CSS -->
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <!-- Direct custom CSS -->
+    <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
+    
+    <!-- Emergency inline styles -->
+  </head>
+  <body>
+    <header class="page-header">
+      <h1>{{ site.title }}</h1>
+      <nav>
+        {% for item in site.navigation %}
+          <a href="{{ item.url }}" class="btn">{{ item.title }}</a>
+        {% endfor %}
+      </nav>
+    </header>
+
+    <main class="main-content">
+      {{ content }}
+    </main>
+  </body>
+</html> 
