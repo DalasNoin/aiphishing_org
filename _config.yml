@@ -15,6 +15,8 @@ navigation:
     url: https://arxiv.org/abs/2412.00586
   - title: Demo
     url: /demo.html
+  # - title: Leaderboard
+  #   url: /leaderboard.html
   - title: Sign-up
     url: /signup.html
 
