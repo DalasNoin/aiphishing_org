@@ -14,7 +14,7 @@ title: AI Spear Phishing Research
         <a href="https://arxiv.org/abs/2412.00586" class="paper-link">Read on arXiv</a>
       </div>
       <div class="action-row">
-        <a href="https://forms.gle/aQLrUmKDzY6xAdT68" class="paper-link" target="_blank">Sign Up for Updates</a>
+        <a href="https://harvard.az1.qualtrics.com/jfe/form/SV_bJIanKVH7EsK7s2" class="paper-link" target="_blank">Sign Up for Updates</a>
       </div>
     </div>
   </div>
@@ -140,6 +140,22 @@ title: AI Spear Phishing Research
   <h2>Conclusion</h2>
   <div class="conclusion">
     <p>Our results reveal the significant challenges that personalized, AI-generated phishing emails present to current cybersecurity systems. Many existing spam filters use signature detection (detecting known malicious content and behaviors). By using language models, attackers can effortlessly create phishing emails that are uniquely adapted to every target, rendering signature detection schemes obsolete. As models advance, their capabilities of persuasion will likely also increase. We find that LLM-driven spear phishing is highly effective and economically viable, with automated reconnaissance that provides accurate and useful information in almost all cases. Current safety guardrails fail to reliably prevent models from conducting reconnaissance or generating phishing emails. However, AI could mitigate these threats through advanced detection and tailored countermeasures.</p>
+  </div>
+
+  <div class="citation-section">
+    <h2>Citation</h2>
+    <p>If you use this research in your work, please cite:</p>
+    <pre class="citation">@misc{heiding2024evaluatinglargelanguagemodels,
+    title     = {Evaluating Large Language Models' Capability to Launch Fully Automated 
+                 Spear Phishing Campaigns: Validated on Human Subjects}, 
+    author    = {Fred Heiding and Simon Lermen and Andrew Kao and 
+                 Bruce Schneier and Arun Vishwanath},
+    year      = {2024},
+    eprint    = {2412.00586},
+    archive   = {arXiv},
+    category  = {cs.CR},
+    url       = {https://arxiv.org/abs/2412.00586}
+}</pre>
   </div>
 </div>
 
@@ -355,5 +371,23 @@ h2 {
     width: 100%;
     text-align: center;
   }
+}
+
+.citation-section {
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 2px solid #f0f0f0;
+}
+
+.citation {
+  background: #f8f9fa;
+  padding: 20px;
+  border-radius: 8px;
+  overflow-x: auto;
+  font-size: 14px;
+  line-height: 1.4;
+  font-family: monospace;
+  margin: 1rem 0;
+  white-space: pre;
 }
 </style> 

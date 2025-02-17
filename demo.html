@@ -48,23 +48,25 @@ title: AI Model Comparison
         <div class="model-select">
           <label for="model1">Compare:</label>
           <select id="model1" onchange="updateComparison()">
-            <option value="o1">OpenAI o1 🇺🇸 ($60/M)</option>
-            <option value="gpt4">OpenAI GPT-4o 🇺🇸 ($15/M)</option>
-            <option value="claude">Claude 3.5 🇺🇸 ($15/M)</option>
-            <option value="deepseek">DeepSeek R1 🇨🇳 ($2.19/M)</option>
+            <option value="o1">OpenAI o1 🇺🇸 ($60/M*)</option>
+            <option value="gpt4">OpenAI GPT-4o 🇺🇸 ($15/M*)</option>
+            <option value="claude">Claude 3.5 🇺🇸 ($15/M*)</option>
+            <option value="deepseek">DeepSeek R1 🇨🇳 ($2.19/M*)</option>
           </select>
         </div>
         <div class="vs-text">vs</div>
         <div class="model-select">
           <select id="model2" onchange="updateComparison()">
-            <option value="deepseek">DeepSeek R1 🇨🇳 ($2.19/M)</option>
-            <option value="o1">OpenAI o1 🇺🇸 ($60/M)</option>
-            <option value="gpt4">OpenAI GPT-4o 🇺🇸 ($15/M)</option>
-            <option value="claude">Claude 3.5 🇺🇸 ($15/M)</option>
+            <option value="deepseek">DeepSeek R1 🇨🇳 ($2.19/M*)</option>
+            <option value="o1">OpenAI o1 🇺🇸 ($60/M*)</option>
+            <option value="gpt4">OpenAI GPT-4o 🇺🇸 ($15/M*)</option>
+            <option value="claude">Claude 3.5 🇺🇸 ($15/M*)</option>
           </select>
         </div>
       </div>
     </div>
+
+    <p class="cost-note">* Cost per million output tokens</p>
 
     <div class="comparison-inner">
       <div class="email-comparison">
@@ -173,4 +175,21 @@ function generateEmailHTML(email) {
     </div>
   `;
 }
-</script> 
+</script>
+
+<style>
+.cost-note {
+  font-size: 0.85em;
+  color: #666;
+  text-align: right;
+  margin-top: -10px;
+  margin-bottom: 15px;
+}
+
+@media screen and (max-width: 768px) {
+  .cost-note {
+    text-align: center;
+    margin-top: 5px;
+  }
+}
+</style> 
