@@ -1,5 +1,5 @@
 remote_theme: pages-themes/cayman
-title: AI Spear Phishing Research
+title: AI Phishing and Scam Research
 description: Evaluating Large Language Models' Capability to Launch Fully Automated Spear Phishing Campaigns
 show_downloads: false
 
@@ -11,8 +11,8 @@ plugins:
 navigation:
   - title: Home
     url: /
-  - title: Paper
-    url: https://arxiv.org/abs/2412.00586
+  - title: Papers
+    url: /papers.html
   - title: Demo
     url: /demo.html
   # - title: Leaderboard

@@ -1,0 +1,99 @@
+---
+layout: default
+title: Papers - AI Phishing and Scam Research
+---
+
+<div class="main-wrapper">
+  <h1>Publications</h1>
+
+  <div class="papers-list">
+
+    <div class="paper-card">
+      <h2>Evaluating Large Language Models' Capability to Launch Fully Automated Spear Phishing Campaigns: Validated on Human Subjects</h2>
+      <p class="authors">Fred Heiding, Simon Lermen, Andrew Kao, Claudio Mayrink Verdun, Bruce Schneier, Arun Vishwanath</p>
+      <p class="venue">ICML 2025 Workshop on Reliable and Responsible Foundation Models</p>
+      <p class="abstract">We evaluate the capability of large language models to conduct personalized phishing attacks and compare their performance with human experts. AI-automated attacks performed on par with human experts (54% click-through rate) and 350% better than the control group. Our custom-built tool automates the entire spear phishing process, including information gathering and creating personalized vulnerability profiles for each target.</p>
+      <div class="paper-links">
+        <a href="https://arxiv.org/abs/2412.00586" class="paper-link" target="_blank">Read on arXiv</a>
+      </div>
+    </div>
+
+    <div class="paper-card">
+      <h2>Can AI Models be Jailbroken to Phish Elderly Victims? An End-to-End Evaluation</h2>
+      <p class="authors">Fred Heiding, Simon Lermen</p>
+      <p class="venue">The 3rd International AI Governance Workshop (AIGOV), held in conjunction with AAAI 2026</p>
+      <p class="abstract">We demonstrate how attackers can exploit AI safety vulnerabilities to target vulnerable populations. Testing safety guardrails across six leading language models using four distinct attack categories, we found critical failures where several models exhibited near-complete susceptibility to certain attack vectors. In a study with 108 senior participants, AI-generated phishing emails successfully compromised 11% of participants.</p>
+      <div class="paper-links">
+        <a href="https://arxiv.org/abs/2511.11759" class="paper-link" target="_blank">Read on arXiv</a>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<style>
+.main-wrapper {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.papers-list {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.paper-card {
+  background: #f8f9fa;
+  border-radius: 8px;
+  padding: 25px;
+  border-left: 4px solid #0066cc;
+}
+
+.paper-card h2 {
+  margin: 0 0 10px 0;
+  font-size: 1.3em;
+  color: #333;
+  border: none;
+  padding: 0;
+}
+
+.paper-card .authors {
+  color: #555;
+  margin: 0 0 8px 0;
+  font-size: 1em;
+}
+
+.paper-card .venue {
+  color: #0066cc;
+  font-weight: 500;
+  margin: 0 0 15px 0;
+  font-size: 0.95em;
+}
+
+.paper-card .abstract {
+  color: #444;
+  line-height: 1.6;
+  margin: 0 0 20px 0;
+}
+
+.paper-links {
+  display: flex;
+  gap: 10px;
+}
+
+.paper-link {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #0066cc;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+}
+
+.paper-link:hover {
+  background: #0052a3;
+}
+</style>
